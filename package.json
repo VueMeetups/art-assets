@@ -1,0 +1,34 @@
+{
+  "name": "vuejs-meetup-art-assets",
+  "version": "1.0.0",
+  "description": "Art assets to help with setting up a new Vue.js local meetup",
+  "main": "test.js",
+  "scripts": {
+    "fix": "node zip-all.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VueMeetups/art-assets.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "Meetup",
+    "Art",
+    "Designs",
+    "PSD",
+    "SVG",
+    "PNG"
+  ],
+  "author": "The Jared Wilcurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VueMeetups/art-assets/issues"
+  },
+  "homepage": "https://github.com/VueMeetups/art-assets#readme",
+  "devDependencies": {
+    "7zip-bin": "^2.2.7",
+    "fs-extra": "^4.0.2",
+    "psd-cli": "^0.2.1"
+  }
+}

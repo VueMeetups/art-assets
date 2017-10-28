@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+thumbs.db
+.spotlight*
+.trashes
+.vol
+.fseventsd
+.dbfseventsd
+npm-debug.log
