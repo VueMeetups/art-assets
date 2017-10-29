@@ -2,10 +2,11 @@
   "name": "vuejs-meetup-art-assets",
   "version": "1.0.0",
   "description": "Art assets to help with setting up a new Vue.js local meetup",
-  "main": "test.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "fix": "node zip-all.js",
-    "test": "node test.js"
+    "start": "gulp test",
+    "test": "gulp test",
+    "fix": "gulp fix"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,10 @@
   "devDependencies": {
     "7zip-bin": "^2.2.7",
     "fs-extra": "^4.0.2",
-    "psd-cli": "^0.2.1"
-  }
+    "gulp": "^3.9.1",
+    "psd": "^3.2.0"
+  },
+  "precommit": [
+    "test"
+  ]
 }
