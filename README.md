@@ -2,22 +2,14 @@
 
 [![Build Status](https://travis-ci.org/VueMeetups/art-assets.svg?branch=master)](https://travis-ci.org/VueMeetups/art-assets)
 
-Reusable art assets for Vue meetups
+Reusable art assets for Vue meetups.
+
+Due to the large size of art assets and the limitations of free GitHub accounts, we are storing the art assets in a Google Drive:
+
+* https://drive.google.com/open?id=0B1ovWdH4ntFvUXNTRVB2MG1odWc
 
 * * *
 
-## Contributing
+## Contributing art assets:
 
-1. Art assets can be pretty big which is why that are in their own repo.
-1. To keep the repo small, large assets should be 7-zipped.
-1. Make sure to create a PNG preview of the zipped file.
-1. PSD's should always be 7-zipped.
-1. Fork this repo
-1. Clone your fork
-1. Copy your assets into a folder in your fork
-1. Download [Node/NPM](https://nodejs.org)
-1. `npm install`
-1. `npm run fix` (will create preview PNGs from PSDs and zip & delete the PSD)
-1. `npm test` (verify it passes, if not fix what it tells you to)
-1. Commit and push your changes
-1. Create a Pull Request against this repo
+Create [an issue](https://github.com/VueMeetups/art-assets/issues/new) with your gmail and the Vue group you represent in it and I'll add you to the Google Shared Drive to update/maintain your assets.
